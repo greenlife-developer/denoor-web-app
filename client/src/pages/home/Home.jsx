@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../../components/header/Header";
 import Donate from "../../components/makeDonation/Donate";
 import image1 from "../../assets/image/image 1.png";
-import group11 from "../../assets/image/Group 11.png";
 import image14 from "../../assets/image/image 14.png";
 import image15 from "../../assets/image/image 15.png";
 import image16 from "../../assets/image/image 16.png";
@@ -11,6 +10,7 @@ import image7 from "../../assets/image/image 7.png";
 import image8 from "../../assets/image/image 8.png";
 import "./home.css";
 import Footer from "../../components/footer/Footer";
+import ScrollUp from "../../components/scrollup/ScrollUp";
 
 export default function Home() {
   return (
@@ -40,7 +40,7 @@ export default function Home() {
             especially in education allows each person to contribute to their
             society in a productive way.
           </p>
-          <img src={group11} alt="" />
+          <ScrollUp />
         </div>
       </div>
 

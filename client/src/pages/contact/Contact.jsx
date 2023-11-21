@@ -11,6 +11,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import axios from "axios";
 import "./contact.css";
+import ScrollUp from "../../components/scrollup/ScrollUp";
 
 const initialState = {
   name: "",
@@ -135,6 +136,8 @@ export default function Contact() {
           </div>
         </div>
       </section>
+
+      <ScrollUp />
 
       <section className="icons-address">
         <div className="items">

@@ -16,25 +16,25 @@ footer.footer {
 
 .footer .logo {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .footer .logo img {
     object-fit: cover;
-    width: 73px;
-    height: 73px;
+    width: 53px;
+    height: 53px;
 }
 
-.footer .logo h1,
+/* .footer .logo h1,
 .footer .logo h2 {
     text-align: center;
     width: 300px;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-}
+} */
 
 .footer .logo h2 span:nth-child(1) {
     color: #0F0AF6;
@@ -55,7 +55,7 @@ footer.footer {
 .footer .items .item .logo-footer-text p {
     color: #fff;
     font-family: Poppins;
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -67,14 +67,18 @@ footer.footer {
     color: #fff;
     text-align: center;
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
+.footer .items .item h2{
+    width: 180px;
+}
+
 .footer .items .item .line {
-    width: 223px;
+    width: 140px;
     height: 3px;
     background: #FBA20F;
     display: inline-block;
@@ -85,7 +89,7 @@ footer.footer {
 }
 
 .items .item .icons {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .items .item .icons .icon {
@@ -97,8 +101,8 @@ footer.footer {
 }
 
 .items .item .icons .icon img {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
 }
 
 .items .item .icons .icon span {
@@ -115,9 +119,9 @@ footer.footer {
     display: grid;
     background-color: #222228;
     gap: 15px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     grid-template-columns: 1fr;
 }
 
@@ -128,8 +132,8 @@ footer.footer {
 }
 
 .footer-contact .icon-address img {
-    width: 40px;
-    height: 57.143px;
+    width: 30px;
+    height: 40px;
     flex-shrink: 0;
 }
 
@@ -142,7 +146,7 @@ footer.footer {
 .footer-contact .icon-address div p {
     color: #FBA20F;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;

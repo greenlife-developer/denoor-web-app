@@ -8,6 +8,7 @@ import image20 from "../../assets/image/image 20.png";
 import image22 from "../../assets/image/image 22.png";
 import Banner from "../../components/banner/Banner";
 import "./about.css";
+import ScrollUp from "../../components/scrollup/ScrollUp";
 
 export default function About() {
   return (
@@ -45,9 +46,9 @@ export default function About() {
         </div>
       </div>
 
-      <section className="about-education">
+      {/* <section className="about-education">
         <img src={image20} alt="" />
-      </section>
+      </section> */}
 
       <section className="child">
         <div className="items">
@@ -66,6 +67,8 @@ export default function About() {
           </div>
         </div>
       </section>
+      
+      <ScrollUp />
 
       <Donate />
       <Footer />

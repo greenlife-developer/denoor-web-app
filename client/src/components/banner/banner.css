@@ -18,15 +18,16 @@
 
 .banner .banner-items img {
     width: 875px;
+    object-fit: cover;
     height: 147px;
 }
 
 .banner .banner-items h1 {
     color: #000;
     font-family: Poppins;
-    font-size: 40px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
 }
 

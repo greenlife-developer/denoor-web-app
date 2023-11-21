@@ -36,7 +36,9 @@ export default function Header() {
               <NavLink to="/contact">Contact</NavLink>
             </li>
             <li>
-              <button>Donate</button>
+              <a href="#donate">
+                <button>Donate</button>
+              </a>
             </li>
           </ul>
           <i

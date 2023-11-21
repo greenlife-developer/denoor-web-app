@@ -1,0 +1,7 @@
+.scroll img {
+    position: fixed;
+    width: 40px;
+    cursor: pointer;
+    bottom: 5%;
+    right: 5%;
+}

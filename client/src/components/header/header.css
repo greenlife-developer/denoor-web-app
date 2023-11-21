@@ -34,15 +34,15 @@
 
 .header .logo img {
     object-fit: cover;
-    width: 83px;
-    height: 83px;
+    width: 63px;
+    height: 63px;
 }
 
 .header .logo h1 {
     text-align: center;
-    width: 327px;
+    width: 180px;
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -100,9 +100,9 @@ ul li a {
     /* background: blue; */
     color: #000;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 600;
+    font-weight:400;
     line-height: normal;
     padding: 0 0 10px 0;
 }
@@ -123,42 +123,28 @@ ul li a {
 
 @media screen and (max-width: 1024px) {
     .header nav {
-        padding: 40px 10px 0;
+        padding: 30px 10px 0;
     }
 
     .header .logo h1 {
-        font-size: 22px;
-        width: 250px;
+        font-size: 16px;
+        width: 160px;
         /* background-color: blue; */
     }
 
     .header .logo img {
-        width: 73px;
-        height: 73px;
+        width: 53px;
+        height: 53px;
     }
 
     ul li a {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header nav {
-        padding: 40px 10px 0;
-    }
-
-    .header .logo h1 {
-        font-size: 18px;
-        width: 180px;
-    }
-
-    .header .logo img {
-        width: 63px;
-        height: 63px;
-    }
-
-    ul li a {
-        font-size: 16px;
+        padding: 30px 10px 0;
     }
 }
 

@@ -4,7 +4,7 @@ import "./donate.css"
 
 export default function Donate() {
   return (
-    <section className="donate">
+    <section id="donate" className="donate">
       <div className="items">
         <div className="item">
           <h1>Make a Donation Now!</h1>
