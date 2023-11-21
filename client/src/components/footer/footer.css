@@ -1,0 +1,251 @@
+footer.footer {
+    padding: 40px 0;
+    padding: 60px 30px 60px;
+    background-color: #000;
+}
+
+.footer .items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .items .item {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.footer .logo {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.footer .logo img {
+    object-fit: cover;
+    width: 73px;
+    height: 73px;
+}
+
+.footer .logo h1,
+.footer .logo h2 {
+    text-align: center;
+    width: 300px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer .logo h2 span:nth-child(1) {
+    color: #0F0AF6;
+}
+
+.footer .logo h2 span:nth-child(2) {
+    color: #FBA20F;
+}
+
+.footer .logo h2 span:nth-child(3) {
+    color: #FF0707;
+}
+
+.footer .logo h2 span:nth-child(4) {
+    color: #FBA20F;
+}
+
+.footer .items .item .logo-footer-text p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.footer .items .item h1,
+.footer .items .item h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer .items .item .line {
+    width: 223px;
+    height: 3px;
+    background: #FBA20F;
+    display: inline-block;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.items .item .icons {
+    margin-top: 2rem;
+}
+
+.items .item .icons .icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.items .item .icons .icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.items .item .icons .icon span {
+    color: #FBA20F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-contact {
+    display: grid;
+    background-color: #222228;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    grid-template-columns: 1fr;
+}
+
+.footer-contact .icon-address {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-contact .icon-address img {
+    width: 40px;
+    height: 57.143px;
+    flex-shrink: 0;
+}
+
+.footer-contact .icon-address div h1 {
+    display: flex;
+    color: #fff;
+    justify-content: start;
+}
+
+.footer-contact .icon-address div p {
+    color: #FBA20F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+@media screen and (max-width: 1024px) {
+    footer.footer {
+        padding: 60px 15px;
+    }
+
+    .footer .logo img {
+        width: 63px;
+        height: 63px;
+    }
+
+    .footer .items .item h1 {
+        font-size: 22px;
+    }
+
+    .footer .items .item h2 {
+        font-size: 22px;
+        width: 220px;
+    }
+
+    .footer-contact .icon-address div p {
+        font-size: 18px;
+    }
+
+    .footer .items .item .logo-footer-text p {
+        font-size: 18px;
+    }
+
+    .items .item .icons .icon {
+        margin-bottom: 5px;
+        gap: 5px;
+    }
+
+    .footer .items .item .line {
+        width: 170px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    footer.footer {
+        padding: 60px 15px;
+    }
+
+    .footer .logo img {
+        width: 53px;
+        height: 53px;
+    }
+
+    .footer .items .item h1 {
+        font-size: 18px;
+    }
+
+    .footer .items .item h2 {
+        font-size: 18px;
+        width: 200px;
+    }
+
+    .items .item .icons .icon span {
+        font-size: 12px;
+    }
+
+    .items .item {
+        margin-bottom: 20px;
+    }
+
+    .items .item .icons .icon img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .footer-contact .icon-address div p {
+        font-size: 12px;
+    }
+
+    .footer .items .item .logo-footer-text p {
+        font-size: 14px;
+    }
+
+    .items .item .icons .icon {
+        margin-bottom: 2px;
+        gap: 5px;
+    }
+
+    .footer-contact .icon-address img {
+        width: 25px;
+        height: 30px;
+        flex-shrink: 0;
+    }
+
+    .footer-contact, .items .item .icons {
+        margin-top: 1rem;
+    }
+
+    .footer .items .item .line {
+        width: 150px;
+    }
+
+
+}
