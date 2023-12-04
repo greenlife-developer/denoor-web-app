@@ -48,7 +48,7 @@
     line-height: normal;
 }
 
-.header .logo h1 span:nth-child(1) {
+/* .header .logo h1 span:nth-child(1) {
     color: #0F0AF6;
 }
 
@@ -62,7 +62,7 @@
 
 .header .logo h1 span:nth-child(4) {
     color: #000;
-}
+} */
 
 .nav-items{
     transition: all 1s ease-in-out;

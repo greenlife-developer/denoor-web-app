@@ -65,7 +65,7 @@ export default function Contact() {
         <div className="items">
           <div className="item">
             <h1>Please get in touch</h1>
-            <p>Your email address ill not be published</p>
+            <p>Your email address will not be published</p>
             <form onSubmit={sendEmail} method="POST">
               <div className="form-field">
                 <div className="">

@@ -75,8 +75,8 @@ export default function Footer() {
             <div className="icon-address">
               <img src={image23} alt="" />
               <div className="">
-                <h1>Phone:</h1>
-                <p>(+234) 7066736784 seemberiko@gmail.com</p>
+                <h1>Send a message:</h1>
+                <p>denooreducationfoundation@gmail.com</p>
               </div>
             </div>
           </div>

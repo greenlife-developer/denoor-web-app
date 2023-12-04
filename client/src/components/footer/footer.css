@@ -36,7 +36,7 @@ footer.footer {
     line-height: normal;
 } */
 
-.footer .logo h2 span:nth-child(1) {
+/* .footer .logo h2 span:nth-child(1) {
     color: #0F0AF6;
 }
 
@@ -50,7 +50,7 @@ footer.footer {
 
 .footer .logo h2 span:nth-child(4) {
     color: #FBA20F;
-}
+} */
 
 .footer .items .item .logo-footer-text p {
     color: #fff;
