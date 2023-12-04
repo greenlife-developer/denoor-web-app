@@ -145,7 +145,7 @@ export default function Contact() {
             <img src={image21} alt="" />
             <div className="">
               <h1>Address</h1>
-              <p>123 Ave, Asokoro, Abuja, Nigeria.</p>
+              <p>No 4, Baver Dzeremo Street, Judges Quarters Makurdi.</p>
             </div>
           </div>
           <div className="item">

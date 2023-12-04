@@ -105,6 +105,10 @@ footer.footer {
     height: 25px;
 }
 
+.items .item .icons .icon a{
+    text-decoration: none;
+}
+
 .items .item .icons .icon span {
     color: #FBA20F;
     text-align: center;

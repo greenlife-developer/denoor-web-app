@@ -68,11 +68,10 @@ export default function Home() {
               <img src={image15} alt="" />
             </div>
             <div className="body">
-              <h3>Help life</h3>
+              <h3>Volunteer</h3>
               <p>
-                Helping others is an important part of life; it gives you a
-                sense of purpose and boasts your happiness while positively
-                affecting the world around you.
+                Volunteering is more than just giving your time to a good cause.
+                It can also benefit your health, happiness, and social skills.
               </p>
             </div>
           </div>
@@ -81,11 +80,10 @@ export default function Home() {
               <img src={image16} alt="" />
             </div>
             <div className="body">
-              <h3>Help life</h3>
+              <h3>Send Donation</h3>
               <p>
-                Helping others is an important part of life; it gives you a
-                sense of purpose and boasts your happiness while positively
-                affecting the world around you.
+                Help your community by donating and fundraising that is going to
+                support and promote education.
               </p>
             </div>
           </div>
@@ -130,7 +128,6 @@ export default function Home() {
       <Donate />
 
       <Footer />
-
     </div>
   );
 }
