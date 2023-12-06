@@ -24,8 +24,8 @@ export default function Footer() {
           </div>
           <div className="logo-footer-text">
             <p>
-              I must explain to you how all this mistaken idea of denouncing
-              pleasure and praising pain was born and I will give you a complete
+              The longer a child remains illeterate or innumerate, the more
+              challengin his or her social and economic integration
             </p>
           </div>
         </div>
