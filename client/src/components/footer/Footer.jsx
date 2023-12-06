@@ -25,7 +25,7 @@ export default function Footer() {
           <div className="logo-footer-text">
             <p>
               The longer a child remains illeterate or innumerate, the more
-              challengin his or her social and economic integration
+              challengin his or her social and economic integration.
             </p>
           </div>
         </div>
